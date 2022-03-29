@@ -8,8 +8,6 @@ import { useSelector } from "react-redux";
 import Products from "../Products/Products";
 import { CategoryContext } from "../Context/ContextApi";
 import { useContext } from "react";
-import Category from "../Products/Category";
-import { Home } from "@mui/icons-material";
 
 const Header = () => {
   const [searchData,setSearchData]=useState('');
